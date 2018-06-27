@@ -1,0 +1,1274 @@
+html { -webkit-font-smoothing: antialiased; }
+
+@media (min-width: 2048px) {
+.no-retina,
+.no-retina img{ display:none; width:0; height:0; }
+}
+
+@media (max-width: 2047px) {
+.for-retina,
+.for-retina img{ display:none; width:0; height:0; }
+}
+
+
+@media (min-width: 481px) {
+	.display-mobile{
+		display:none;
+	}
+}
+@media (max-width: 480px) {
+	.mobile-display-none{
+		display:none;
+	}
+}
+
+body{
+	background-color:#000;
+	font-family: akzidenz-grotesk, Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: subpixel-antialiased !important;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+}
+.row {
+    max-width: 82rem;
+}
+a .fa{
+	color:#f9c600;
+	font-size:18px;
+}
+a:hover .fa{
+	color:#c60;
+}
+a{
+	color:#c60;
+	font-family: akzidenz-grotesk, Arial, Helvetica, sans-serif;
+}
+a:hover{
+	color:#f9c600;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	font-family: akzidenz-grotesk, Arial, Helvetica, sans-serif;
+}
+
+h2{
+	color:#f9c600;
+	font-size:32px;
+	line-height:normal;
+	font-weight:bold;
+}
+p{
+	font-size:20px;
+	/*font-size:1.4rem;*/
+	line-height:1.4;
+}
+.p-small{
+	color:#666;
+	font-size:16px;
+	line-height:normal;
+	margin-top:5px;
+}
+
+h2.title-48{
+	color:#000;
+	font-size:48px;
+	margin-bottom:25px;
+	line-height:normal;
+}
+h2.title-48 .fa{
+	color:#f9c600;
+	margin-right:10px;
+	font-size:38px;
+	font-weight:900;
+	position:relative;
+	top:-2px;
+}
+
+@media (max-width: 480px) {
+	h2{
+		font-size:24px;
+	}
+	h2.title-48{
+		font-size:24px;
+		margin-bottom:20px;
+	}
+	h2.title-48 .fa{
+		margin-right:10px;
+		font-size:18px;
+	}
+	p{
+		font-size:16px;
+	}
+	.p-small{
+		font-size:15px;
+	}
+	a{
+		font-weight:bold;
+	}
+	a .fa{
+		color:#f9c600;
+		font-size:14px;
+	}
+}
+
+button, 
+.button {
+	background-color: #f9c600;
+	border-color: #cf2a0e;
+	color: #000;
+	font-family: akzidenz-grotesk, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding: 1rem 2rem; 
+}
+button:hover,
+button:focus, 
+.button:hover, 
+.button:focus {
+	background-color: #c60;
+	color:#fff; 
+}
+
+button .fa,
+.button .fa,
+button:active fa:before, 
+.button:active fa:before,
+button:visited fa:before,
+.button:visited .fa:before{
+	color:#000;
+	margin-left:10px;
+	font-size:15px;
+}
+button:hover .fa,
+.button:hover .fa{
+	color:#fff;
+}
+@media (max-width: 480px) {
+	button, 
+	.button{
+		width:100%;
+	}
+	button .fa,
+	.button .fa{
+		font-size:14px;
+		top:0;
+	}
+}
+hr{
+  border: 1px solid #000;
+  border-width: 1px 0 0;
+}
+
+.row{
+	background-color:#fff;
+}
+.column, .columns {
+    padding-left:30px;
+    padding-right:30px;
+}
+@media (max-width: 480px) {
+	.column, .columns {
+		padding-left:15px;
+		padding-right:15px;
+	}
+}
+
+
+/* top
+--------------------------------------------- */
+/*
+.top .row{
+	background-image:url(../img/HERO_PBIRO_MYANMAR_Paletwa-Chin.jpg);
+	background-position:bottom center;
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment:fixed;
+}
+*/
+
+.top .row{
+	background-image:url(../img/HERO_PBIRO_MYANMAR_Paletwa-Chin.jpg);
+	background-position:top center;
+	background-repeat:no-repeat;
+	-webkit-background-size: 82rem auto;
+	-moz-background-size: 82rem auto;
+	-o-background-size: 82rem auto;
+	background-size: 82rem auto;
+	background-attachment:fixed;
+}
+
+@media (min-width: 2048px) {
+	.top .row{ background-image:url(../img/20130614_PBIRO_MYANMAR_Paletwa-Chin_0217.jpg); }
+}
+.logo{
+	float:left;
+}
+.social-top{
+	float:right;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding:5px 20px 5px 0;
+}
+.social-top .fa-twitter{
+	font-size:44px;
+	/*font-size:3rem;*/
+	position:relative;
+	top:4px;
+}
+.social-top .fa-facebook{
+	font-size:37px;
+	/*font-size:2.6rem;*/
+	margin-left:20px;
+	position:relative;
+	top:3px;
+}
+.top .social-top .yellow{
+	float:left;
+	margin:0;
+	background:none;
+	color:#f9c600;
+}
+.top .social-top .yellow:hover{
+	color:#c60;
+}
+.top .social-top .yellow .fa-chevron-right:before{
+	color:#f9c600;
+	float:right;
+	margin-right:10px;
+	position:relative;
+	top:2px;
+}
+.top .social-top .yellow:hover .fa-chevron-right:before{
+	color:#c60;
+}
+
+.clearfix.margin-bottom{
+	margin-bottom:130px;
+}
+
+.top .annual.mobile-display-none{
+	background-color:rgba(0,0,0,0.6);
+	margin-bottom:30px;
+	color:#fff;
+	text-align:right;
+	padding:20px 30px 0 30px;
+	float:right;
+	width:auto;
+}
+.top .annualmobile-display-none h2,
+.top .annual.mobile-display-none h3,
+.top .annual.mobile-display-none p{
+	margin:0;
+	padding:0;
+	line-height:normal;
+}
+.top .annual.annual.mobile-display-none h3{
+	color:#f9c600;
+	line-height:normal;
+	font-weight:bold;
+	text-transform:uppercase;
+	/*font-size:30px;*/
+	font-size:2rem;
+}
+
+.top .annual.mobile-display-none h2{
+	color:#fff;
+	line-height:normal;
+	font-weight:bold;
+	margin-bottom:5px;
+	font-size:42px;
+	/*font-size:3rem;*/
+}
+.top .annual.mobile-display-none p{
+	font-size:30px;
+	/*font-size:2rem;*/
+	margin-bottom: 1.25rem;
+}
+
+.annual-mobile h3{
+	background-color:rgba(0,0,0,0.6);
+	padding:10px 15px;
+	color:#f9c600;
+	line-height:normal;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:0;
+	font-size:30px;
+}
+.social-mobile-top{
+	overflow:hidden;
+}
+.links-m1{
+	background-color:#f9c600;
+	width:100%;
+	float:left;
+}
+.social-mobile-top .fa{
+	color:#000;
+}
+.social-mobile-top .fa-twitter{
+	font-size:30px;
+	position:relative;
+	top:11px;
+	margin-left:15px;
+}
+.social-mobile-top .fa-facebook{
+	font-size:24px;
+	position:relative;
+	top:9px;
+	margin-left:11px;
+}
+.social-mobile-top .fa-twitter:hover,
+.social-mobile-top .fa-facebook:hover{
+	color:#c60;
+}
+.social-mobile-top .yellow{
+	margin-bottom:0;
+	float:right;
+	padding:15px 15px;
+	width:auto;
+}
+
+.social-mobile-top .annual-text{
+	background-color:#fff;
+	padding:10px 15px 0 15px;
+}
+.social-mobile-top .annual-text h2{
+	color:#000;
+}
+.social-mobile-top .annual-text p{
+	margin-bottom:0;
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+.logo img{
+	width:80px;
+}
+.social-top{
+	padding:5px 10px 5px 0;
+}
+.social-top .fa-facebook {
+    margin-left: 5px;
+}
+.top .social-top .yellow{
+	padding-left:15px;
+	padding-right:20px;
+}
+.top .social-top .yellow .fa-chevron-right:before{
+	margin-left:0;
+}
+}
+@media (max-width: 480px) {
+	.top .column, 
+	.top .columns {
+		padding-left:0;
+		padding-right:0;
+	}
+	.top .row{
+		background:none;
+	}
+	.top .row{
+		background-color:transparent!important;
+	}
+	.top .row .large-12{
+		height:300px;
+		width:100%;
+		position:relative;
+	}
+	body{
+		background-attachment:fixed;
+		background-image:url(../img/HERO_mobile_PBIRO_MYANMAR_Paletwa-Chin.jpg);
+		background-repeat:no-repeat;
+		background-position:center -53px;
+	}
+	.logo{
+		width:96px;
+	}
+	.top .annual-mobile.display-mobile{
+		position:absolute;
+		bottom:0;
+		left:0;
+		width:100%;
+	}
+	.annual-mobile h3{
+		font-size:20px;
+	}
+	.social-mobile-top .yellow{
+		font-size:15px;
+	}
+}
+
+/* end top
+--------------------------------------------- */
+
+/* Message from the President
+--------------------------------------------- */
+.message-president .row{
+	padding-top:20px;
+}
+.message-president hr {
+  margin: 0.4rem 0 0.3rem 0;
+}
+/* Message from the President
+--------------------------------------------- */
+
+/* In 2014, the IRC and its partner organizations:
+------------------------------------------------------ */
+.in-2014{
+	text-align:center;
+}
+.in-2014 .row{
+	padding-top:40px;
+}
+.in-2014 h2{
+	margin-bottom:40px;
+}
+
+@media (min-width: 480px) {
+	.in-2014 .block-4 img,
+	liberia-sierra .block-4 img{
+		margin-bottom:10px;
+	}
+	.block-4 img{
+		width:75%;
+	}
+} 
+.block-4{
+	text-align:center
+}
+.block-4 h4{
+	border-top:1px solid #000;
+	font-size:34px;
+	line-height:normal;
+	color:#f9c600;
+	padding:15px 0 10px 0;
+	margin:0;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.assistance h4{
+	border-top:none;
+	border-bottom:1px solid #000;
+	padding:40px 0 20px 0;
+}
+.assistance .block-4 img{
+	margin-bottom:40px;
+}
+
+@media (max-width: 480px) {
+	.in-2014 .row{
+		padding-top:20px;
+	}
+	.in-2014 h2{
+		margin-bottom:20px;
+	}
+	.block-4 h4{
+		font-size:16px;
+	}
+	.block-4 p{
+		font-size:14px;
+	}
+	.assistance h4{
+		padding:20px 0;
+	}
+	.assistance .block-4 img{
+		margin-bottom:20px;
+	}
+}
+@media (min-width: 641px) {
+	.display-640px{
+		display:none;
+	}
+}
+/* end In 2014, the IRC and its partner organizations:
+------------------------------------------------------ */
+
+/* social-icon-row
+--------------------------------------------- */
+.social-icon-row .row{
+	text-align:center;
+	padding:10px 0 60px 0;
+}
+@media (max-width: 480px) {
+	.social-icon-row .row{
+		padding:10px 0 30px 0;
+	}
+}
+.social-icon-row a{
+	margin:0 10px;
+}
+.social-icon-row .fa-twitter{
+	font-size:44px;
+	position:relative;
+	top:4px;
+}
+.social-icon-row .fa-facebook{
+	font-size:37px;
+	position:relative;
+	top:3px;
+}
+/* end social-icon-row
+--------------------------------------------- */
+
+/* A year of crises
+---------------------------------------------- */
+.a-yea .row{
+	padding-bottom:60px;
+	padding-top:10px;
+}
+@media (max-width: 480px) {
+	.a-yea .row{
+		padding-bottom:20px;
+		padding-top:0;
+	}
+}
+/* end A year of crises
+---------------------------------------------- */
+
+/* links-1
+--------------------------------------------- */
+.links-1 .row{
+	background-color:#f9c600;
+}
+.links-1 a{
+	color:#000;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.links-1 a:hover{
+	color:#fff;
+}
+@media (min-width: 481px) {
+	.links-1 .row{
+		padding-bottom:30px;
+		padding-top:30px;
+	}
+	.links-1 a{
+		font-size:20px;
+		/*font-size:1.3rem;*/
+	}
+	.links-1 .fa{
+		display:none;
+	}
+	.links-1{
+		text-align:center;
+	}
+	.links-1 font{
+		margin-left:20px;
+		margin-right:16px;
+		color:#fff;
+		font-size:24px;
+		position:relative;
+		top:-1px;
+	}
+}
+@media (max-width: 480px) {
+	.links-1 font{
+		display:none;
+	}
+	.links-1 .row{
+		text-align:left;
+		padding-bottom:5px;
+		padding-top:5px;
+	}
+	.links-1 a{
+		display:block;
+		margin:10px 0;
+	}
+	.links-1 a .fa{
+		margin-left:10px;
+		color:#000;
+		font-size:14px;
+	}
+	.links-1 a:hover .fa{
+		color:#fff;
+	}
+}
+/* end links-1
+--------------------------------------------- */
+
+/* Ebola in West Africa: Communities fight for survival
+---------------------------------------------------------- */
+.ewa .row{
+	padding-top:50px;
+	padding-bottom:30px;
+}
+@media (max-width: 480px) {
+	.ewa .row{
+		padding-top:30px;
+		padding-bottom:0;
+	}
+}
+.ewa a{
+	color:#c60;
+}
+.ewa a:hover{
+	color:#FDC82F;
+}
+.social-ewa{
+	position:absolute;
+	top:20px;
+	right:60px;
+	z-index:88;
+}
+@media (max-width: 480px) {
+	.social-ewa{
+		right:45px;
+	}
+}
+.social-ewa .fa-twitter{
+	font-size:44px;
+	font-size:3rem;
+	position:relative;
+	top:4px;
+}
+.social-ewa .fa-facebook{
+	/*font-size:37px;*/
+	font-size:2.6rem;
+	margin-left:20px;
+	position:relative;
+	top:3px;
+}
+/* end Ebola in West Africa: Communities fight for survival
+----------------------------------------------------------- */
+
+/* Inside the IRC’s Ebola response
+--------------------------------------------- */
+.inside-response .row{
+	padding-bottom:50px;
+}
+@media (max-width: 480px) {
+	.inside-response .row{
+		padding-bottom:10px;
+	}
+}
+/* end Inside the IRC’s Ebola response
+--------------------------------------------- */
+
+
+/* How the IRC is fighting Ebola in Liberia and Sierra Leone
+---------------------------------------------------------------- */
+@media (min-width: 481px) {
+.liberia-sierra .large-12{
+	margin-bottom:30px;	
+}
+}
+.link-fight-ebola{
+	text-align:center;
+	overflow:hidden;
+	margin-bottom:50px;
+	margin-top:50px;
+}
+.link-fight-ebola span{
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.link-fight-ebola a{
+	background-color:#000;
+	padding:20px 30px;
+	text-transform:uppercase;
+	display:inline-block;
+	color:#f9c600;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:20px;
+	font-size:1rem;
+	font-weight:bold;
+}
+.link-fight-ebola a:hover{
+	background-color:#c60;
+	color:#fff;
+}
+.link-fight-ebola a .fa{
+	margin-left:15px;
+	font-size:15px;
+}
+.link-fight-ebola a:hover .fa{
+	color:#fff;
+}
+
+@media (min-width: 481px) and (max-width: 810px) {
+	.link-fight-ebola.two-link span{
+		display:block;
+		margin:0 0 20px 0;
+		overflow:hidden;
+	}
+	.link-fight-ebola.two-link a{
+		display:table;
+		float:none;
+		margin:0 auto;
+		margin-bottom:40px;
+		width:auto;
+	}
+	.link-fight-ebola.two-link a:last-child{
+		margin-bottom:20px;
+	}
+}
+
+.tr-1{
+	background:url(../img/1px.png) repeat-x 0 0;
+	margin-bottom:50px;
+	width:100%;
+	text-align:center;
+	position:relative;
+	overflow:hidden;
+	height:25px;
+}
+.tr-1 img{
+	position:absolute;
+	top:-1px;
+	left:50%;
+	margin-left:-19px;
+}
+@media (max-width: 480px) {
+	.link-fight-ebola{
+		margin-top:20px;
+		margin-bottom:30px;
+	}
+	.link-fight-ebola span{
+		display:block;
+		margin:0 0 20px 0;
+		overflow:hidden;
+	}
+	.link-fight-ebola a{
+		margin-left:0;
+		margin-right:0;
+		margin-bottom:20px;
+		width:100%;
+		text-align:left;
+		font-size:16px;
+	}
+	.link-fight-ebola a font{
+		text-align:left;
+	}
+	.tr-1{
+		margin-bottom:40px;
+	}
+}
+/* end How the IRC is fighting Ebola in Liberia and Sierra Leone
+---------------------------------------------------------------- */
+
+/* escaping-syria
+---------------------------------------------------------------- */
+.escaping-syria .row{
+	color:#fff;
+}
+.scaping-syria-bg{
+	background-color:#f9c600;
+	padding-top:20px;
+	overflow:hidden;
+	margin-left:30px;
+	margin-right:30px;
+}
+@media (max-width: 480px) {
+	.scaping-syria-bg{
+		margin-left:15px;
+		margin-right:15px;
+	}
+}
+.escaping-syria h2.title-48{
+	color:#fff;
+	text-transform:uppercase;
+}
+.escaping-syria p{
+	color:#fff;
+}
+.watch-video-1{
+	color:#000;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:20px;
+	display:block;
+}
+.watch-video-1:hover{
+	color:#c60;
+}
+.watch-video-1 .fa-chevron-right{
+	color:#000;
+	margin-left:10px;
+}
+/* escaping-syria
+---------------------------------------------------------------- */
+
+/* South Sudan and Central African Republic: Uprooted by conflict
+---------------------------------------------------------------------- */
+.uprooted .row{
+	padding-bottom:50px;
+}
+@media (max-width: 480px) {
+.uprooted .row{
+	padding-bottom:20px;
+}
+}
+/* end South Sudan and Central African Republic: Uprooted by conflict
+---------------------------------------------------------------------- */
+
+
+/* slider-large-12
+---------------------------------------------------------------------- */
+.slider-large-12 .orbit-container .orbit-slide-number,
+.slider-large-12 .orbit-container .orbit-timer{
+	display:none;
+}
+.slider-large-12 .row{
+	padding-bottom:40px;
+}
+
+.slider-large-12 .orbit-bullets{
+	margin-top:10px;
+}
+.slider-large-12 .orbit-bullets li {
+	width: 1rem;
+	height: 1rem;
+	background: #fff;
+}
+.slider-large-12 .orbit-bullets li {
+    height: 1rem;
+    margin-right: 8px;
+    width: 1rem;
+}
+.slider-large-12 .orbit-bullets li.active {
+    background:#f9c600;
+}
+.orbit-container .orbit-slides-container > * .orbit-caption {
+	font-size: 1rem;
+	text-align:center;
+}
+
+
+.orbit-container .orbit-slides-container > * .orbit-caption {
+    background-color: transparent;
+    color: #000;
+    padding: 5px 10px 0 10px;
+    position:relative;
+}
+
+.slider-large-12 .orbit-bullets-container{
+	position:absolute;
+	bottom:4.6rem;
+	width:100%;
+	z-index:555;
+} 
+
+
+
+@media (max-width: 480px) {
+	.slider-large-12 .row{
+		padding-bottom:0;
+	}
+	.orbit-container .orbit-slides-container > * .orbit-caption {
+		font-size:14px;
+	}
+}
+
+.orbit-container .orbit-prev,
+.orbit-container .orbit-next {
+	position: absolute;
+	top: 50%;
+	margin-top: -5rem;
+	width: 4rem;
+	height: 5rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 10;
+}
+@media (max-width: 480px) {
+	.orbit-container .orbit-prev,
+	.orbit-container .orbit-next {
+		top: 40%;
+	}
+}
+.orbit-container .orbit-prev:hover,
+.orbit-container .orbit-next:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+	
+.orbit-container .orbit-prev > span,
+.orbit-container .orbit-next > span {
+	position:relative;
+	top:1.15rem;
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+	font-size:3rem;
+	color:#f9c600;
+}
+.orbit-container .orbit-prev > span{
+	left:0.8rem;
+}
+.orbit-container .orbit-next > span{
+	left:1.15rem;
+}
+	   
+.orbit-container .orbit-prev { left: 0; }
+.orbit-container .orbit-prev > span:before {
+  content: "\f053";
+}
+.orbit-container .orbit-next { right: 0; }
+.orbit-container .orbit-next > span:before {
+	content: "\f054";
+ }
+ 
+@media only screen and (max-width: 480px) {
+.orbit-container .orbit-prev, .orbit-container .orbit-next {
+    height: 40px;
+    margin-top: -1.5rem;
+    width: 34px;
+}
+.orbit-container .orbit-prev > span, .orbit-container .orbit-next > span {
+    font: 1.5rem/1 FontAwesome;
+    top: 0.5rem;
+}
+.orbit-container .orbit-prev > span{
+	left:0.5rem;
+}
+.orbit-container .orbit-next > span {
+    left: 0.6rem;
+}
+
+
+.social-ewa {
+    right: 36px;
+}
+.social-ewa {
+    top: 6px;
+}
+
+.social-ewa .fa-facebook {
+    font-size: 1.7rem;
+    margin-left: 13px;
+    top: 2;
+}
+.social-ewa .fa-twitter {
+    font-size: 2rem;
+}
+
+}
+
+/* end slider-large-12
+---------------------------------------------------------------------- */
+
+
+
+/* Humanitarian
+---------------------------------------------- */
+.humanitarian .social-ewa {
+    right:30px;
+}
+.humanitarian .block-4 img{
+	margin:50px 0 25px 0;
+	width:60%;
+}
+@media (max-width: 480px) {
+	.humanitarian .block-4 img{
+		margin:10px 0 25px 0;
+	}
+}
+/* end Humanitarian
+---------------------------------------------- */
+
+/* Congo: Scholarships put girls back in the classroom
+--------------------------------------------------------------*/
+.congo blockquote{
+	color:#000;
+	border-left:none;
+	border-top:3px solid #f9c600;
+	border-bottom:3px solid #f9c600;
+	padding:27px 30px 25px 30px;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+.congo blockquote p{
+	color:#000;
+	margin-bottom:15px;
+	/*font-size:30px;*/
+	font-size:50px;
+	line-height:normal;
+}
+
+.congo blockquote .fa-twitter{
+	/*font-size:44px;*/
+	font-size:3rem;
+	margin-left:5px;
+	position:relative;
+	top:4px;
+}
+.congo blockquote .fa-facebook{
+	/*font-size:37px;*/
+	font-size:2.6rem;
+	margin-left:20px;
+	position:relative;
+	top:3px;
+}
+
+.congo blockquote .p-small{
+	color:#000;
+	font-size:20px;
+}
+
+@media (max-width: 480px) {
+	.congo blockquote{
+		color:#000;
+		border-left:none;
+		border-top:3px solid #f9c600;
+		border-bottom:3px solid #f9c600;
+		padding:27px 0px 25px 0px;
+		margin-top:20px;
+		margin-bottom:40px;
+	}
+	.congo blockquote p{
+		font-size:30px;
+	}
+	.congo blockquote .p-small{
+		font-size:18px;
+	}
+	.congo blockquote .fa-twitter{
+		font-size:37px;
+	}
+	.congo blockquote .fa-facebook{
+		font-size:33px;
+	}
+}
+/* end Congo: Scholarships put girls back in the classroom
+--------------------------------------------------------------*/
+
+/* million
+-------------------------------------- */
+.million .row{
+	padding-top:40px;
+}
+.million .block-4 img{
+	width:60%;
+}
+@media (max-width: 480px) {
+	.million .row{
+		padding-top:0;
+	}
+}
+.million .block-4 h4{
+	text-transform:none;
+}
+/* end million
+-------------------------------------- */
+
+/* block-pd
+-------------------------------------- */
+.block-pd .row{
+	padding-bottom:50px;
+}
+.block-pd table,
+.block-pd tbody,
+.block-pd td{
+	border:none;
+	padding:0 15px;
+	margin:0;
+}
+.block-pd td img{
+	width:100%;
+	max-width:100%;
+}
+@media (max-width: 480px) {
+	.block-pd .row{
+		padding-bottom:40px;
+	}
+	.block-pd td{
+		display:block;
+		width:100%;
+		padding:0;
+		text-align:center;
+	}
+	.block-pd td .button{
+		margin:30px 0 0 0;
+	}
+}
+/* end block-pd
+-------------------------------------- */
+
+
+/* block-5
+-------------------------------------- */
+.block-5 .row{
+	padding-bottom:50px;
+}
+/* end block-5
+-------------------------------------- */
+
+.donate-block{
+	text-align:center;
+}
+.donate-block .button{
+	text-align:center;
+	margin-bottom:30px;
+}
+@media (max-width: 480px) {
+	.donate-block .button{
+		margin-bottom:10px;
+	}	
+}
+
+
+/* footer
+-------------------------------------- */
+.footer{
+	text-align:center;
+}
+.footer .row{
+	background-color:#000;
+	text-transform:uppercase;
+}
+.footer a{
+	color:#f9c600;
+	font-family: akzidenz-grotesk, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.footer a:hover{
+	color:#fff;
+}
+.footer font{
+	color:#fff;
+}
+
+@media (min-width: 481px) {
+	.footer .row{
+		padding-bottom:20px;
+		padding-top:30px;
+	}
+	.footer a{
+		/*font-size:24px;*/
+		font-size:1rem;
+	}
+	.footer font{
+		margin-left:14px;
+		margin-right:10px;
+		color:#fff;
+		font-weight:bold;
+		position:relative;
+		top:-2px;
+	}
+}
+@media (max-width: 480px) {
+	.footer font{
+		display:none;
+	}
+	.footer .row{
+		padding-bottom:10px;
+		padding-top:20px;
+	}
+	.footer a{
+		display:block;
+		margin:10px 0;
+		text-align:center;
+	}
+}
+/* footer
+-------------------------------------- */
+
+/* sub-footer
+-------------------------------------- */
+.sub-footer .large-12{
+	text-align:center;
+	color:#fff;
+	font-family: akzidenz-grotesk, Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+.sub-footer .row{
+	background-color:#000;
+	padding-bottom:40px;
+}
+/* end sub-footer
+-------------------------------------- */
+
+.video-block{
+margin-bottom: 1rem;
+}
+
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+	.top .row{
+		background-attachment:inherit;
+	}
+	h2{
+		font-size:20px;
+	}
+	h2.title-48{
+		font-size:30px;
+	}
+	h2.title-48 .fa {
+		font-size: 24px;
+	}
+	.row .block-4 h4 {
+		font-size:20px;
+	}
+	p{
+		font-size:18px;
+	}
+	.p-small{
+		font-size:15px;
+	}
+	.links-1 .row a {
+		font-size: 18px;
+	}
+	a{
+		font-weight:bold;
+	}
+	a .fa {
+		font-size: 11px;
+	}
+	button, 
+	.button {
+		font-size:12px;
+	}
+	button .fa, 
+	.button .fa {
+		font-size: 12px;
+		top:0;
+	}
+	.top .row .annual.mobile-display-none p {
+		font-size: 18px;
+	}
+	.top .row .annual.annual.mobile-display-none h3 {
+		font-size: 18px;
+	}
+	.top .row .annual.mobile-display-none h2 {
+		font-size: 24px;
+	}
+	.congo .row blockquote p {
+		font-size: 30px;
+	}
+	.congo .row blockquote .p-small {
+		font-size: 18px;
+	}
+	.row .link-fight-ebola a {
+		font-size: 12px;
+	}
+	.row .watch-video-1{
+		font-size:12px;
+	}
+	.congo blockquote .fa-twitter{
+		font-size:2rem;
+	}
+	.congo blockquote .fa-facebook{
+		font-size:1.8rem;
+	}
+	.footer .row a {
+		font-size: 12px;
+	}
+	.footer .row font {
+		position: relative;
+		top: 0;
+	}
+	.sub-footer .row .large-12{
+		font-size:10px
+	}
+}
+
+
+
+
